@@ -1,3 +1,5 @@
+//This is the implementation of Binary Search in Golang.
+
 func binarySearch(s []int, num int, start int, end int) int{
     if start > end {
         return -1
